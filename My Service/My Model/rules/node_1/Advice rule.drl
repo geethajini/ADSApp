@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>Advice rule</name>
+  <uuid>fe56b7fc-3924-4d03-b272-dc37bae9927f</uuid>
+  <locale>en_US</locale>
+  <definition><![CDATA[if
+	Name is defined
+then
+	set decision to  `Hello { 'Name' }! { 'Weather advice' }`;]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>
